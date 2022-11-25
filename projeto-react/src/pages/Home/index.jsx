@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
-
+import "./style.scss"
 export function Home() {
     const path = [
         { name: "Segunda aula", value: "segunda-aula" },
@@ -12,7 +12,7 @@ export function Home() {
 
     return (
         <div>
-            <header>
+            <header className="home">
             <h1>Layout Principal</h1>
                 <ul>
                     {
